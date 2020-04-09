@@ -1,0 +1,61 @@
+________________________________________
+RASPBERRY GNU/Linux 4.14.79-v7+
+⏱ Up Time: 0 Days, 01:02:44
+________________________________________
+⚙ Services status:
+✅ alsa-utils
+✅ apache-htcacheclean
+✅ apache2
+✅ avahi-daemon
+✅ bluetooth
+⛔ console-setup.sh
+✅ cron
+✅ cups
+✅ cups-browsed
+✅ dbus
+⛔ deluged
+⛔ dhcpcd
+✅ dphys-swapfile
+✅ fake-hwclock
+✅ fingminder_daemon
+⛔ hwclock.sh
+⛔ keyboard-setup.sh
+✅ kmod
+✅ lightdm
+⛔ lighttpd
+⛔ minissdpd
+✅ monitor_cameras
+✅ motion
+✅ mysql
+✅ network-manager
+⛔ networking
+⛔ nfs-common
+✅ nmbd
+✅ ntp
+⛔ paxctld
+✅ php7.0-fpm
+✅ plexmediaserver
+⛔ plymouth
+⛔ plymouth-log
+⛔ pppd-dns
+✅ procps
+✅ proftpd
+✅ raspi-config
+⛔ rpcbind
+⛔ rsync
+✅ rsyslog
+✅ samba
+⛔ samba-ad-dc
+⛔ saned
+⛔ screen-cleanup
+✅ smbd
+✅ ssh
+⛔ sudo
+✅ telegram-daemon
+⛔ transmission-daemon
+✅ triggerhappy
+✅ udev
+⛔ vsftpd
+⛔ x11-common
+✅ zoneminder
+________________________________________

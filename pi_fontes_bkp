@@ -1,0 +1,4 @@
+#!/bin/bash
+rsync /home/pi/.bin /home/pi/MEDIASERVER/lnx_shells/backup_rpi/bin/
+rsync /home/pi/tg /home/pi/MEDIASERVER/lnx_shells/backup_rpi/tg/
+

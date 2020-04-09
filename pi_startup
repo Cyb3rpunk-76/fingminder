@@ -1,0 +1,29 @@
+#!/bin/bash
+hdext="/home/pi/MEDIASERVER"
+raspberryhd="${hdext}/motion/cameras"
+tmpdir="${raspberryhd}/tmp"
+file_write_test="${tmpdir}/.file_write_to_test"
+
+remonta_hd_externo() {
+    sudo fuser -ckv $hdext 2> /dev/null > /dev/null
+    sudo umount UUID=5394-E1FB 2> /dev/null > /dev/null
+    mount UUID=5394-E1FB 2> /dev/null > /dev/null
+}
+
+while true; do  
+    if [ ! -e "$file_write_test" ]; then
+        echo test > "$file_write_test" 2> /dev/null
+    fi
+    if [ -w "$file_write_test" ]; then
+        break
+    else
+        remonta_hd_externo
+        sleep 2
+    fi
+done  
+
+
+
+
+
+
